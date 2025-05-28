@@ -19,7 +19,7 @@ pipeline {
                 //need to give ssh credentials - using the cred ID created in Jenkins   
                 git branch: 'main'
                     credentialsId:'github-ssh-key'
-                    url: 'https://github.com/OneClickCoder/tracker_pipeline.git' // need to mention .git in the end of the URL
+                    url: 'git@github.com/OneClickCoder/tracker_pipeline.git' // need to mention .git in the end of the URL
                 
                 echo "GitHub repo cloned Sucessfully"
                 sh "ls -la"
