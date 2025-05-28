@@ -5,7 +5,7 @@ pipeline {
         onGitPush()   -> githubPush()
     }*/
 
-    Options{
+    options{
         // to trigger the webhook
         githubPush()
     }
