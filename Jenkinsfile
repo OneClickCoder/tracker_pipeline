@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    // removed the options{} block - count 3
+    // removed the options{} block - count 4
     stages {
         stage('Checkout Code') {
             steps {
