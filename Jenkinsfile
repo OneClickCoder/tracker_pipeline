@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    // removed the options{} block
     stages {
         stage('Checkout Code') {
             steps {
